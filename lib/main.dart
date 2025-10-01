@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    const String appTitle = 'Basic Layout Flutter';
+    const String appTitle = 'Michelle Dorani Shiba - 2341720113';
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: appTitle,
@@ -130,8 +130,8 @@ class BasicLayoutDemo extends StatelessWidget {
     );
 
     // Gambar utama
-    final mainImage = Image.network(
-      'https://upload.wikimedia.org/wikipedia/commons/0/0f/Pavlova_dessert.jpg',
+    final mainImage = Image.asset(
+      'images/Pavlova.jpeg',
       fit: BoxFit.cover,
     );
 
